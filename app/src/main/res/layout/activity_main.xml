@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="#003f5a"
+        tools:context="com.example.androidl.itsecurityquizapp.MainActivity">
+
+        <!--Machine Learning Image-->
+
+        <ImageView
+            android:layout_width="384dp"
+            android:layout_height="300dp"
+            android:src="@drawable/machine"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:textAlignment="center"
+            android:paddingRight= "0dp"
+            android:paddingTop="0dp"
+            android:background="#003f5a"
+            />
+
+        <!--Machine Header-->
+
+        <TextView
+
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#003f5a"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Machine  Learning App"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!--Machine Header Details-->
+
+        <TextView
+
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#015b75"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Machine learning is a type of artificial intelligence (AI) that provides computers with the ability to learn without being explicitly programmed. Machine learning focuses on the development of computer programs that can change when exposed to new data. The process of machine learning is similar to that of data mining."
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <!--Name Input-->
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_name"
+            android:inputType="textCapWords" />
+
+        <!--Question 1-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/num_question_1" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/question_1" />
+
+        <CheckBox
+            android:id="@+id/redundancy_checkbox"
+            style="@style/Checkbox_Answer"
+            android:text="@string/Supervised" />
+
+        <CheckBox
+            android:id="@+id/answer_one"
+            style="@style/Checkbox_Answer"
+            android:text="@string/Unsupervised" />
+
+        <CheckBox
+            android:id="@+id/answer_2"
+            style="@style/Checkbox_Answer"
+            android:text="@string/SemiSupervised" />
+
+        <CheckBox
+            android:id="@+id/answer_3"
+            style="@style/Checkbox_Answer"
+            android:text="@string/ReinforcementLearning" />
+
+        <CheckBox
+            android:id="@+id/remote_access_checkbox"
+            style="@style/Checkbox_Answer"
+            android:text="@string/Reward" />
+
+
+        <!--Question 2-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/num_question_2" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/question_2" />
+
+        <RadioGroup
+            android:id="@+id/question_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/answer_2_1_radiobutton"
+                style="@style/RadioButton_Answer"
+                android:text="@string/answer_2_1" />
+
+            <RadioButton
+                android:id="@+id/answer_2_2_radiobutton"
+                style="@style/RadioButton_Answer"
+                android:text="@string/answer_2_2" />
+
+            <RadioButton
+                android:id="@+id/answer_2_3_radiobutton"
+                style="@style/RadioButton_Answer"
+                android:text="@string/answer_2_3" />
+
+            <RadioButton
+                android:id="@+id/answer_2_4_radiobutton"
+                style="@style/RadioButton_Answer"
+                android:text="@string/answer_2_4" />
+        </RadioGroup>
+
+
+
+        <!--Question 3-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/num_question_3" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/question_3" />
+
+        <RadioGroup
+            android:id="@+id/question_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/publ_radiobutton"
+                style="@style/RadioButton_Answer"
+                android:text="@string/pauriccarroll" />
+
+            <RadioButton
+                android:id="@+id/sensitive_radiobutton"
+                style="@style/RadioButton_Answer"
+                android:text="@string/larrypage" />
+
+            <RadioButton
+                android:id="@+id/confidential_radiobutton"
+                style="@style/RadioButton_Answer"
+                android:text="@string/leesedol" />
+
+            <RadioButton
+                android:id="@+id/private_radiobutton"
+                style="@style/RadioButton_Answer"
+                android:text="@string/parkJiSung" />
+
+            <RadioButton
+                android:id="@+id/trusty_worthy_radiobutton"
+                style="@style/RadioButton_Answer"
+                android:text="@string/sergeybrin" />
+        </RadioGroup>
+
+
+
+        <!--Question 4-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/num_question_4" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/question_4" />
+
+        <CheckBox
+            android:id="@+id/managerial_checkbox"
+            style="@style/Checkbox_Answer"
+            android:text="@string/decision" />
+
+        <CheckBox
+            android:id="@+id/decisionTreeLearning"
+            style="@style/Checkbox_Answer"
+            android:text="@string/associate" />
+
+        <CheckBox
+            android:id="@+id/associate"
+            style="@style/Checkbox_Answer"
+            android:text="@string/artifical" />
+
+        <CheckBox
+            android:id="@+id/artifical"
+            style="@style/Checkbox_Answer"
+            android:text="@string/sleep" />
+
+        <CheckBox
+            android:id="@+id/geographical_checkbox"
+            style="@style/Checkbox_Answer"
+            android:text="@string/cluttering" />
+
+
+        <!--Question 5-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/num_question_5" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/question_5" />
+
+        <CheckBox
+            android:id="@+id/answer_5_1_checkbox"
+            style="@style/Checkbox_Answer"
+            android:text="@string/answer_5_1" />
+
+        <CheckBox
+            android:id="@+id/answer_5_2_checkbox"
+            style="@style/Checkbox_Answer"
+            android:text="@string/answer_5_2" />
+
+        <CheckBox
+            android:id="@+id/answer_5_3_checkbox"
+            style="@style/Checkbox_Answer"
+            android:text="@string/answer_5_3" />
+
+        <CheckBox
+            android:id="@+id/answer_5_4_checkbox"
+            style="@style/Checkbox_Answer"
+            android:text="@string/answer_5_4" />
+
+        <CheckBox
+            android:id="@+id/answer_5_5_checkbox"
+            style="@style/Checkbox_Answer"
+            android:text="@string/answer_5_5" />
+
+
+        <Button
+            android:id="@+id/end_test_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:onClick="end_Test"
+            android:text="@string/end_test" />
+
+
+        <!--Test Result-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/test_result" />
+
+        <TextView
+            android:id="@+id/test_result_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text=" "
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</ScrollView>

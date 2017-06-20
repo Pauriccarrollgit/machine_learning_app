@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Machine Learning App</string>
+
+    <!--Machine Header-->
+
+    <string name="machine_header">Machine Learning App</string>
+
+    <!--Enter Your Name Field-->
+    <string name="enter_your_name">Enter Your Name</string>
+
+    <!--Question 1-->
+    <string name="num_question_1">Question 1</string>
+    <string name="question_1">Which of the following are types of machine learning? Check all that apply? (Choose 3 best answers)</string>
+
+    <!--Answers to the question 1-->
+    <string name="Supervised">Supervised</string>
+    <string name="Unsupervised">Unsupervised</string>
+    <string name="SemiSupervised">Semi-Supervised</string>
+    <string name="ReinforcementLearning">Reinforcement Learning</string>
+    <string name="Reward">Reward Punishment</string>
+
+    <!--Question 2-->
+    <string name="num_question_2">Question 2</string>
+    <string name="question_2">Which of the below best describe unsupervised machine learning</string>
+
+    <!--Answers to the question 2-->
+    <string name="answer_2_1">where you have a teacher to guide you and learn concepts, such that when a new sample comes your way that you have not seen before, you may still be able to identify it.</string>
+    <string name="answer_2_2">where you have lots of information but you did not know what to do with it initially. A major distinction is that, there is no teacher to guide you and you have to find a way out on your own. </string>
+    <string name="answer_2_3">When the teacher leaves the class room and we all have a laugh</string>
+    <string name="answer_2_4">When Skynet get the codes to the nuclear launch signals</string>
+
+    <!--Question 3-->
+    <string name="num_question_3">Question 3</string>
+    <string name="question_3">Googles artificially intelligent Go-playing computer system has defeated Korean grandmaster. What was the name of that player?</string>
+
+    <!--Answers to the question 3-->
+    <string name="pauriccarroll">Pauric Carroll</string>
+    <string name="larrypage">Larry Page</string>
+    <string name="leesedol">Lee Sedol</string>
+    <string name="parkJiSung">Park Ji Sung</string>
+    <string name="sergeybrin">Sergey Brin</string>
+
+    <!--Question 4-->
+    <string name="question_4">What are the THREE types of Machine Learning?</string>
+    <string name="num_question_4">Question 4</string>
+
+    <!--Answers to the question 4-->
+    <string name="decision">Decision tree learning</string>
+    <string name="associate">Association rule learning</string>
+    <string name="artifical">Artificial neural networks</string>
+    <string name="sleep">Sleep Learning</string>
+    <string name="cluttering">Cluttering</string>
+
+    <!--Question 5-->
+    <string name="num_question_5">Question 5</string>
+    <string name="question_5">Which of the following are examples of machine learning applications (Choose 3 best answers)</string>
+
+    <!--Answers to the question 5-->
+    <string name="answer_5_1">Bioinformatics</string>
+    <string name="answer_5_2">Search engines</string>
+    <string name="answer_5_3">DNA Sequencing</string>
+    <string name="answer_5_4">Eating Food</string>
+    <string name="answer_5_5">Standing in Fields</string>
+
+
+    <!--Button "End Test"-->
+    <string name="end_test">End test</string>
+
+    <!--Test Result-->
+    <string name="test_result_name">"Name: "</string>
+    <string name="test_result">Test Result</string>
+    <string name="test_result_score">"Score: "</string>
+</resources>
